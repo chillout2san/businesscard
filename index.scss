@@ -1,0 +1,67 @@
+.wrapper {
+  background-color: white;
+  font-family: sans-serif;
+  line-height: normal;
+  box-sizing: border-box;
+  width: 240px;
+  height: 400px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &_textlogo {
+    width: 50px;
+    height: 20px;
+  }
+
+  &_marklogo {
+    width: 50px;
+    height: 20px;
+  }
+}
+
+.main {
+  height: 260px;
+  padding: 110px 0px 30px 0px;
+  vertical-align: middle;
+
+  &_branch {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  &_name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &_ruby {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}
+
+.footer {
+  height: 100px;
+
+  &_title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  &_body {
+    display: flex;
+    font-size: 10px;
+  }
+
+  &_label {
+    margin-right: 5px;
+  }
+}
